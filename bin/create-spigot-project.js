@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+"use strict";
+
 const readlineSync = require('readline-sync')
 const version = require('../lib/version')
 const lib = require('../lib/index')
