@@ -4,7 +4,7 @@
   "description": "simple, fast, start your project easier with create-spigot-project",
   "main": "./lib/index.js",
   "bin": {
-    "test-module-exec": "bin/test-module.js"
+    "create-spigot-project": "bin/create-spigot-project.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
     "url": "https://github.com/chunza2542/create-spigot-project/issues"
   },
   "homepage": "https://github.com/chunza2542/create-spigot-project#readme",
-  "preferGlobal": "true"
+  "preferGlobal": "true",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "readline-sync": "^1.4.7",
+    "rimraf": "^2.6.1"
+  }
 }
