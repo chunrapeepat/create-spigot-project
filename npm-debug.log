@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/chunza2542/Desktop/csp',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/chunza2542/.npm/create-spigot-project/1.1.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/chunza2542/.npm correctMkdir not in flight; initializing
+10 info lifecycle create-spigot-project@1.1.0~prepublish: create-spigot-project@1.1.0
+11 silly lifecycle create-spigot-project@1.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/chunza2542/.npm/create-spigot-project/1.1.0/package.tgz',
+12 verbose tar pack   '/Users/chunza2542/Desktop/csp' ]
+13 verbose tarball /Users/chunza2542/.npm/create-spigot-project/1.1.0/package.tgz
+14 verbose folder /Users/chunza2542/Desktop/csp
+15 verbose addLocalTarball adding from inside cache /Users/chunza2542/.npm/create-spigot-project/1.1.0/package.tgz
+16 verbose correctMkdir /Users/chunza2542/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd create-spigot-project@1.1.0
+18 verbose afterAdd /Users/chunza2542/.npm/create-spigot-project/1.1.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/chunza2542/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/chunza2542/.npm/create-spigot-project/1.1.0/package/package.json written
+21 silly publish { name: 'create-spigot-project',
+21 silly publish   version: '1.1.0',
+21 silly publish   description: 'simple, fast, start your project easier with create-spigot-project',
+21 silly publish   main: './lib/index.js',
+21 silly publish   bin: { 'create-spigot-project': 'bin/create-spigot-project.js' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/chunza2542/create-spigot-project.git' },
+21 silly publish   keywords: [ 'create-spigot-project', 'chunza2542' ],
+21 silly publish   author:
+21 silly publish    { name: 'Chun Rapeepat',
+21 silly publish      email: 'chunza2542@hotmail.com',
+21 silly publish      url: 'https://thechun.xyz' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/chunza2542/create-spigot-project/issues' },
+21 silly publish   homepage: 'https://github.com/chunza2542/create-spigot-project#readme',
+21 silly publish   preferGlobal: 'true',
+21 silly publish   dependencies: { mkdirp: '^0.5.1', 'readline-sync': '^1.4.7', rimraf: '^2.6.1' },
+21 silly publish   readme: '# Create Spigot Project\n\nSimple, Fast, Start your project easier with create-spigot-project!<br>\n\nCreate Spigot Project is a file generator tool that can decrease your time on starting up new project. Note: this app will generate only /src/ in your working directory.<br>\n\nBugs, New Feature, or Any Question [hit this button](https://github.com/chunza2542/create-spigot-project/issues/new).\n\n## Let\'s get started\n\n### Installation\n\nInstall it once globally:\n\n```sh\nnpm install -g create-spigot-project\n```\n\n**You’ll need to have Node >= 6 on your machine**. You can use [nvm](https://github.com/creationix/nvm#installation) to easily switch Node versions between different projects.\n\n### Setup New Project\n\nThis step is base on Text Editor or IDE you use. e.g. Eclipse, Netbean IDE, IntelliJ IDEA, .. whatever. Hit create-new-project button on text editor gui type your project name. when you finish create project. open the terminal or cmd and type this command:\n\n```sh\ncd /path/to/your/project\n```\n\n### Generating File\n\nNow you are on project directory. You just run the commands:\n\n```sh\ncreate-spigot-project\n```\n\nand following the commands instruction. then the system will generate your file into /src/ folder automatically!\n\n```\nAppName\n└── src\n    └── AppName.java - your JavaPlugin main class\n    └── /commands/ - contains commands class\n    └── /listeners/ - empty folder events class\n    └── /core/ - empty folder for helper, dbconnection, ...\n```\n\n### What about me\nHi! I\'m Chun Rapeepat, Nice to meet you here. If you guys want to talk or exchange some knowledge with me, please [contact on Facebook](https://www.facebook.com/chun42).\n',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   gitHead: 'd537ad318e3578cbb7d74e1b3555f55101c9a162',
+21 silly publish   _id: 'create-spigot-project@1.1.0',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '491065e35067303a466211a1d991a81d8018da15',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name create-spigot-project
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'create-spigot-project',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'create-spigot-project',
+26 silly mapToRegistry   name: 'create-spigot-project',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/create-spigot-project
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/chunza2542/.npm/create-spigot-project/1.1.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/create-spigot-project
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 1:31:54 PM
+33 verbose request using bearer token for auth
+34 verbose request id 88ea30c1d84c20f6
+35 http request PUT https://registry.npmjs.org/create-spigot-project
+36 http 403 https://registry.npmjs.org/create-spigot-project
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 12 Jul 2017 06:31:55 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-sin18027-SIN',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1499841115.977842,VS0,VE296',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /Users/chunza2542/.npm/registry.npmjs.org/create-spigot-project on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.1.0." : create-spigot-project
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid create-spigot-project
+43 verbose cwd /Users/chunza2542/Desktop/csp
+44 error Darwin 16.0.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.9.1
+47 error npm  v3.10.8
+48 error code E403
+49 error "You cannot publish over the previously published version 1.1.0." : create-spigot-project
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
