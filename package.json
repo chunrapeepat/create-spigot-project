@@ -1,0 +1,24 @@
+{
+  "name": "create-spigot-project",
+  "version": "1.0.0",
+  "description": "simple, fast, start your project easier with create-spigot-project",
+  "main": "./lib/index.js",
+  "bin": {
+    "test-module-exec": "bin/test-module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunza2542/create-spigot-project.git"
+  },
+  "keywords": [
+    "create-spigot-project",
+    "chunza2542"
+  ],
+  "author": "Chun Rapeepat <chunza2542@hotmail.com> (https://thechun.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chunza2542/create-spigot-project/issues"
+  },
+  "homepage": "https://github.com/chunza2542/create-spigot-project#readme",
+  "preferGlobal": "true"
+}
